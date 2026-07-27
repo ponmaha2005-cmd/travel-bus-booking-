@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TravelGo Booking</title>
+
+    <link rel="stylesheet" href="./hometravel.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+
+    <div class="logo">
+        <h2>TravelGo</h2>
+    </div>
+
+    <nav>
+        <a href="home.html">Home</a>
+    </nav>
+
+</header>
+
+<section class="booking">
+
+    <div class="booking-form">
+
+        <h2>Bus Ticket Booking</h2>
+
+        <form action="./success.html">
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter phone number" required>
+
+            <label>From</label>
+            <select required>
+                <option>Choose City</option>
+                <option>Chennai</option>
+                <option>Coimbatore</option>
+                <option>Madurai</option>
+                <option>Trichy</option>
+            </select>
+
+            <label>To</label>
+            <select required>
+                <option>Choose Destination</option>
+                <option>Ooty</option>
+                <option>Kodaikanal</option>
+                <option>Goa</option>
+                <option>Mysore</option>
+            </select>
+
+            <label>Journey Date</label>
+            <input type="date" required>
+
+            <label>Passengers</label>
+            <input type="number" min="1" max="10" required>
+
+            <label>Bus Type</label>
+            <select required>
+                <option>AC Sleeper</option>
+                <option>AC Seater</option>
+                <option>Non AC Sleeper</option>
+                <option>Non AC Seater</option>
+            </select>
+
+            <input type="submit" value="Book Now" class="book-submit">
+
+        </form>
+
+    </div>
+
+</section>
+
+</body>
+</html>
